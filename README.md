@@ -23,7 +23,7 @@ BitStrike is developed solely for **educational and security research purposes**
 
 ## Legal Disclaimer
 
-This tool is provided for legitimate security research and education only. I developer of BitStrike:
+This tool is provided for legitimate security research and education only. I the developer of BitStrike:
 
 1. Do not condone, encourage or support any unauthorized access to computer systems
 2. Expressly prohibit the use of this software for any illegal activities
@@ -75,17 +75,7 @@ For those using BitStrike to learn about C2 frameworks and defensive measures:
 - [Cyber Kill Chain](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
 - [SANS Reading Room](https://www.sans.org/reading-room/)
 
-## For Hiring Managers and Educational Institutions
 
-This project demonstrates technical skill and understanding of security concepts in a responsible manner. The development of this tool:
-
-1. Shows practical knowledge of programming and network security
-2. Demonstrates understanding of architectural security principles
-3. Exhibits responsible security research methodology
-4. Provides a platform for learning advanced security concepts
-
-The developer is committed to ethical security practices and responsible disclosure.
-
----
+---------------------------------------------------------------------------------------------------------------------------
 
 By using BitStrike, you acknowledge that you have read and agree to abide by all the terms outlined in this documentation.
