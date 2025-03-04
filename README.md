@@ -23,7 +23,7 @@ BitStrike is developed solely for **educational and security research purposes**
 
 ## Legal Disclaimer
 
-This tool is provided for legitimate security research and education only. The developers of BitStrike:
+This tool is provided for legitimate security research and education only. I developer of BitStrike:
 
 1. Do not condone, encourage or support any unauthorized access to computer systems
 2. Expressly prohibit the use of this software for any illegal activities
