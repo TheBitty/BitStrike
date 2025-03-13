@@ -69,4 +69,15 @@ public class CryptoUtil {
             throw new RuntimeException("Decryption failed", e);
         }
     }
+
+    public boolean setCommandResult(String agentId, String commandId, String result, boolean success) {
+        // In a real implementation, we would store command results
+        // For simplicity in Phase 1, we'll just log them
+        if (success) {
+            logger.info("Command {} completed on agent {}: {}", commandId, agentId, result);
+        } else {
+            logger.error("Command {} failed on agent {}: {}", commandId, agentId, result);
+        }
+        return true;
+    }
 } 
